@@ -20,9 +20,12 @@
     <!-- TODO: Mengganti Font -->
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
+      <figure class="mr-2">
+        <img class="img-fluid" src="./assets/logo/logo.png" alt="Logo UNIMED">
+      </figure>
       <a class="navbar-brand" href="#">
-        <h2>Ilmu Komputer</h2>
-        <p>Universitas Negeri Medan</p>
+        <h3>Ilmu Komputer</h3>
+        <h6>Universitas Negeri Medan</h6>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,12 +34,48 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+
+          <!-- Menu beranda -->
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Beranda</a>
           </li>
+
+          <!-- Menu Profil -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Profil
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Sejarah</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Visi & Misi</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Struktur Organisasi</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Profil Pengelola</a>
+            </div>
+          </li>
+
+          <!-- Menu Akademik -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Akademik
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Profil Kelulusan</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Capaian Pembelajaran</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Mata Kuliah</a>
+            </div>
+          </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Profile</a>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -49,9 +88,7 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
