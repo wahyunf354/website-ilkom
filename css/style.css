@@ -52,7 +52,15 @@ nav.navbar ul.navbar-nav .active {
   color: var(--dark);
 }
 
+nav.navbar .search--btn div {
+  top: 0;
+  right: 0;
+}
+
 /* end navbar */
+
+/* hero */
+/* end hero */
 
 /* Media Query */
 
