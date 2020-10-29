@@ -164,6 +164,63 @@ main {
 
 /* end visi misi */
 
+/* footer */
+footer {
+  background: #1a1a1a url("/assets/img/bg_footer.png") center bottom no-repeat;
+  padding: 15px;
+  font-family: Nunito;
+  color: white;
+  font-size: 15px;
+}
+
+footer h3 {
+  font-family: Nunito Sans;
+  font-weight: 700;
+}
+#footercontainer {
+  margin-top: 20px;
+}
+#img-unimed-bg-bw {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+#splitter {
+  margin: 2px 0px 2px 14px;
+  border-left: 2.5px ridge white;
+  height: 97%;
+}
+#ilkomfooter {
+  color: white;
+  margin: 12px 0px 4px 10px;
+}
+#ilkomfooter h4 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#ilkomfooter h5 {
+  margin-top: -12px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+#footer-link {
+  font-size: 20px;
+  margin: 140px 0px 0px 50px;
+}
+#footer-link h5 {
+  color: rgb(211, 211, 211);
+}
+#footer-link a {
+  color: white;
+  font-size: 16px;
+}
+#footer-link ul li {
+  list-style-type: none;
+  padding: 0px;
+}
+/* end footer */
+
 /* Media Query */
 @media only screen and (min-width: 768px) {
   #visi-misi .visi-misi--wrapper p {
@@ -197,6 +254,32 @@ main {
     left: -60px;
     bottom: 300px;
     visibility: visible;
+  }
+}
+/* End Media Query */
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  #img-unimed-bg-bw {
+    width: 80px;
+    height: 80px;
+  }
+  footer h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  #ilkomfooter h4 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #ilkomfooter h5 {
+    margin-top: -12px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #footer-link {
+    font-size: 20px;
+    margin: 20px 0px 0px -45px;
   }
 }
 /* End Media Query */
