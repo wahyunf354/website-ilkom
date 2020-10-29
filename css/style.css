@@ -2,7 +2,8 @@
 
 /* font Nunito 600, 700, Nunito Sans 600 */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Nunito:wght@600;700&display=swap");
-
+/* font Nunito Sans 400 */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 /* end import */
 
 /* variable */
@@ -60,8 +61,122 @@ nav.navbar .search--btn div {
 /* end navbar */
 
 /* hero */
+
+main {
+  margin-top: 100px;
+}
+
 /* end hero */
 
-/* Media Query */
+/* visi misi */
+#visi-misi .container .row h3 {
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 
+#visi-misi .visi-misi--wrapper {
+  min-height: 150px;
+  align-items: stretch;
+}
+/* FIXME: height card visi misi */
+#visi-misi .visi-misi--wrapper .col-1--blok {
+  width: 10px;
+  height: 200px;
+}
+
+#visi-misi .visi-misi--wrapper:nth-child(2) .col-1--blok,
+#visi-misi .visi-misi--wrapper:nth-child(5) .col-1--blok {
+  background-color: #f05f6b;
+}
+
+#visi-misi .visi-misi--wrapper:nth-child(3) .col-1--blok,
+#visi-misi .visi-misi--wrapper:nth-child(6) .col-1--blok {
+  background: #0f69c9;
+}
+
+#visi-misi .visi-misi--wrapper:nth-child(4) .col-1--blok,
+#visi-misi .visi-misi--wrapper:nth-child(7) .col-1--blok {
+  background: #f48f38;
+}
+
+#visi-misi .visi-misi--wrapper h5 {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#visi-misi .visi-misi--wrapper p {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#visi-misi .ball-1 {
+  width: 150px;
+  height: 150px;
+  background: #f48f38 75%;
+  right: -72px;
+  bottom: 636px;
+  visibility: hidden;
+}
+
+#visi-misi .ball-2 {
+  width: 120px;
+  height: 120px;
+  background: #0f69c9 50%;
+  left: -60px;
+  bottom: 300px;
+  visibility: hidden;
+}
+
+/* end visi misi */
+
+/* Media Query */
+@media only screen and (min-width: 768px) {
+  #visi-misi .visi-misi--wrapper p {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  #visi-misi .visi-misi--wrapper .col-1--blok {
+    width: 10px;
+    height: 150px;
+  }
+
+  #visi-misi .ball-1 {
+    width: 150px;
+    height: 150px;
+    background: #f48f38 75%;
+    right: -72px;
+    bottom: 636px;
+    visibility: visible;
+  }
+
+  #visi-misi .ball-2 {
+    width: 120px;
+    height: 120px;
+    background: #0f69c9 50%;
+    left: -60px;
+    bottom: 300px;
+    visibility: visible;
+  }
+}
 /* End Media Query */
