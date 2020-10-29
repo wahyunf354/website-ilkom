@@ -66,6 +66,17 @@ main {
   margin-top: 100px;
 }
 
+.carousel-control-prev-icon {
+  background-image: url(../assets/icon/left-navigasi.png);
+  width: 24px;
+  height: 24px;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../assets/icon/right-navigasi.png);
+  width: 24px;
+  height: 24px;
+}
 /* end hero */
 
 /* news */
@@ -166,6 +177,18 @@ main {
 
 /* Media Query */
 @media only screen and (min-width: 768px) {
+  .carousel-control-prev-icon {
+    background-image: url(../assets/icon/left-navigasi.png);
+    width: 36px;
+    height: 36px;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url(../assets/icon/right-navigasi.png);
+    width: 36px;
+    height: 36px;
+  }
+
   #visi-misi .visi-misi--wrapper p {
     font-family: Nunito Sans;
     font-size: 18px;
