@@ -68,10 +68,22 @@ main {
 
 /* end hero */
 
+/* news */
+#news h3 {
+  font-family: Nunito;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* end news */
+
 /* visi misi */
 #visi-misi .container .row h3 {
   font-family: Nunito;
-  font-size: 24px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 68px;
@@ -83,7 +95,7 @@ main {
   min-height: 150px;
   align-items: stretch;
 }
-/* FIXME: height card visi misi */
+
 #visi-misi .visi-misi--wrapper .col-1--blok {
   width: 10px;
   height: 200px;
