@@ -1,7 +1,7 @@
 /* import */
 
-/* font Nunito 600, 700, Nunito Sans 600,700 */
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700&family=Nunito:wght@600;700&display=swap");
+/* font Nunito 600, 700, Nunito Sans 600 */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Nunito:wght@600;700&display=swap");
 /* font Nunito Sans 400 */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 /* end import */
@@ -69,6 +69,7 @@ main {
 /* end hero */
 
 /* news */
+
 #news h3 {
   font-family: Nunito;
   font-size: 36px;
@@ -78,6 +79,13 @@ main {
   letter-spacing: 0em;
   text-align: center;
 }
+
+.card-title,
+.card-text,
+.card-link {
+  font-family: Nunito;
+}
+
 /* end news */
 
 /* visi misi */
@@ -156,8 +164,8 @@ main {
 
 /* end visi misi */
 
+/* footer */
 footer {
-  margin-top: 20px;
   background: #1a1a1a url("/assets/img/bg_footer.png") center bottom no-repeat;
   padding: 15px;
   font-family: Nunito;
@@ -211,6 +219,7 @@ footer h3 {
   list-style-type: none;
   padding: 0px;
 }
+/* end footer */
 
 /* Media Query */
 @media only screen and (min-width: 768px) {
