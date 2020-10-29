@@ -78,6 +78,12 @@ main {
   letter-spacing: 0em;
   text-align: center;
 }
+
+.card-title,
+.card-text,
+.card-link {
+  font-family: Nunito;
+}
 /* end news */
 
 /* visi misi */
