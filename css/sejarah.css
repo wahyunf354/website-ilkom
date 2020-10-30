@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 40vh;
+  background-color: white;
 }
 
 #hero-sejarah .jumbotron h2.h2 {
@@ -48,5 +49,46 @@
 
 /* Media Query Desktop */
 @media only screen and (min-width: 768px) {
+  #hero-sejarah .jumbotron {
+    background-image: url(../assets/illustrasi/ilustrasi-sejarah.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-color: white;
+  }
+
+  #hero-sejarah .jumbotron h2.h2 {
+    font-family: Nunito;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1d3547;
+  }
+
+  #hero-sejarah .jumbotron h1.display-4 {
+    font-family: Nunito Sans;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 196px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    top: 450px;
+  }
+
+  #sejarah article {
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: justified;
+    margin-bottom: 10px;
+  }
 }
 /* End Media Query Desktop */
