@@ -4,6 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Nunito:wght@600;700&display=swap");
 /* font Nunito Sans 400 */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+/* font Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
 /* end import */
 
 /* variable */
@@ -83,7 +86,7 @@ main {
 
 #news h3 {
   font-family: Nunito;
-  font-size: 36px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 68px;
@@ -99,10 +102,80 @@ main {
 
 /* end news */
 
+/* ka-prodi */
+
+#ka-prodi .carousel {
+  top: -100px;
+  left: 0;
+  right: 0;
+}
+
+#ka-prodi a.carousel-control-prev,
+#ka-prodi a.carousel-control-next {
+  visibility: hidden;
+}
+
+#ka-prodi a.carousel-control-next-mob,
+#ka-prodi a.carousel-control-prev-mob {
+  position: absolute;
+  bottom: 15%;
+}
+
+#ka-prodi a.carousel-control-prev-mob {
+  right: 60px;
+}
+
+#ka-prodi a.carousel-control-next-mob {
+  right: 20px;
+}
+
+.carousel-item p {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.carousel-item h4 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.carousel-item p.sub--title {
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.carousel-item p,
+.carousel-item p.sub--title,
+.carousel-item h4 {
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.bg--ka-prodi {
+  background-color: #1d3547;
+  height: 350px;
+  width: 100vw;
+  background-image: url(../assets/img/bg_footer.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+/* end ka-prodi */
+
 /* visi misi */
 #visi-misi .container .row h3 {
   font-family: Nunito;
-  font-size: 36px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 68px;
@@ -240,7 +313,7 @@ footer h3 {
 }
 /* end footer */
 
-/* Media Query */
+/* Media Query Dekstop*/
 @media only screen and (min-width: 768px) {
   .carousel-control-prev-icon {
     background-image: url(../assets/icon/left-navigasi.png);
@@ -252,6 +325,45 @@ footer h3 {
     background-image: url(../assets/icon/right-navigasi.png);
     width: 36px;
     height: 36px;
+  }
+
+  #news h3,
+  #visi-misi .container .row h3 {
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  #ka-prodi .carousel {
+    top: -50px;
+    left: 10%;
+    right: 10%;
+  }
+
+  #ka-prodi a.carousel-control-prev,
+  #ka-prodi a.carousel-control-next {
+    visibility: visible;
+  }
+
+  #ka-prodi a.carousel-control-next {
+    right: -100px;
+  }
+
+  #ka-prodi a.carousel-control-prev {
+    left: -100px;
+  }
+
+  #ka-prodi a.carousel-control-next-mob,
+  #ka-prodi a.carousel-control-prev-mob {
+    visibility: hidden;
+  }
+
+  .bg--ka-prodi {
+    height: 300px;
   }
 
   #visi-misi .visi-misi--wrapper p {
@@ -289,25 +401,33 @@ footer h3 {
 }
 /* End Media Query */
 
-/* Media Query */
+/* Media Query Tablet */
+
+/* End Media Query Tablet */
+
+/* Media Query Mobile Small */
 @media only screen and (max-width: 600px) {
   #img-unimed-bg-bw {
     width: 80px;
     height: 80px;
   }
+
   footer h3 {
     font-size: 20px;
     text-align: center;
   }
+
   #ilkomfooter h4 {
     font-size: 30px;
     font-weight: 700;
   }
+
   #ilkomfooter h5 {
     margin-top: -12px;
     font-size: 18px;
     font-weight: 400;
   }
+
   #footer-link {
     font-size: 20px;
     margin: 20px 0px 0px -45px;
