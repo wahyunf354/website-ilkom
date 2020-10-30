@@ -47,6 +47,14 @@
 }
 /* end sejarah */
 
+/* animation */
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2000ms;
+  --animate-delay: 0.9s;
+}
+
+/* end animation */
+
 /* Media Query Desktop */
 @media only screen and (min-width: 768px) {
   #hero-sejarah .jumbotron {
