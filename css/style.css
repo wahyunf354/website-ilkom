@@ -6,12 +6,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 /* font Roboto */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+/* font Nunito Sans 700 */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap");
 /* css */
 @import url(./sejarah.css);
 /* end import */
 
 /* variable */
-:root  {
+:root {
   --dark: #1d3547;
 }
 
@@ -121,6 +123,7 @@ main {
 #ka-prodi a.carousel-control-prev-mob {
   position: absolute;
   bottom: 11px;
+  z-index: 16;
 }
 
 #ka-prodi a.carousel-control-prev-mob {
