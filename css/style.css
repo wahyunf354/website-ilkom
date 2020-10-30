@@ -6,12 +6,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 /* font Roboto */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-
+/* css */
+@import url(./sejarah.css);
 /* end import */
 
 /* variable */
-
-:root {
+:root  {
   --dark: #1d3547;
 }
 
