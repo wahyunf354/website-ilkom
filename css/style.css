@@ -103,9 +103,11 @@ main {
 /* end news */
 
 /* ka-prodi */
+#ka-prodi {
+}
 
 #ka-prodi .carousel {
-  top: -100px;
+  top: -50px;
   left: 0;
   right: 0;
 }
@@ -164,12 +166,13 @@ main {
 .bg--ka-prodi {
   background-color: #1d3547;
   height: 350px;
-  width: 100vw;
+  width: 100%;
   background-image: url(../assets/img/bg_footer.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 /* end ka-prodi */
 
 /* visi misi */
@@ -339,7 +342,7 @@ footer h3 {
   }
 
   #ka-prodi .carousel {
-    top: -50px;
+    top: 0;
     left: 10%;
     right: 10%;
   }
