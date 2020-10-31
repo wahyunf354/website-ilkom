@@ -211,6 +211,92 @@ main {
 
 /* end ka-prodi */
 
+
+/* fasilitas */
+
+#fasilitas {
+  filter: drop-shadow(0px 20px 50px rgba(29, 53, 71, 0.1));
+  margin-bottom: 60px;
+}
+#fasilitas h3 {
+  font-family: Nunito;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#fasilitas i:before {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.fasilitas-card {
+  margin: 15px 20px 30px 0px;
+}
+
+.fasilitas-card-img {
+  filter: drop-shadow(0px 9px 15px gray);
+}
+
+.fasilitas-bg-img {
+  align-content: center;
+  padding: 14px;
+  /* background-color: rgba(255, 153, 153, 0.1); */
+  border-radius: 14px;
+  min-width: 80px;
+  min-height: 75px;
+}
+
+.fasilitas-card-content {
+  margin-left: 5px;
+  width: 100%;
+}
+
+.fasilitas-card-content-judul {
+  font-family: Nunito Sans;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.fasilitas-card-content-penj {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: justify;
+}
+
+#c1 {
+  color: #3c9a9d;
+}
+#bg-c1 {
+  background: rgba(60, 154, 157, 0.1);
+}
+#c2 {
+  color: #f05f6b;
+}
+#bg-c2 {
+  background: rgba(240, 95, 107, 0.1);
+}
+#c3 {
+  color: #673e66;
+}
+#bg-c3 {
+  background: rgba(103, 62, 102, 0.1);
+}
+#c4 {
+  color: #0f69c9;
+}
+#bg-c4 {
+  background: rgba(15, 105, 201, 0.1);
+}
+
+/* end fasilitas */
+
 /* visi misi */
 #visi-misi .container .row h3 {
   font-family: Nunito;
@@ -352,7 +438,8 @@ footer h3 {
 }
 /* end footer */
 
-/* Media Query Dekstop*/
+
+/* Media Query Desktop*/
 @media only screen and (min-width: 768px) {
   .carousel-control-prev-icon {
     background-image: url(../assets/icon/left-navigasi.png);
@@ -447,11 +534,37 @@ footer h3 {
 /* End Media Query */
 
 /* Media Query Tablet */
-
+@media only screen and (max-width: 993px) {
+  .fasilitas-card-content {
+    margin-left: 35px;
+  }
+}
 /* End Media Query Tablet */
 
 /* Media Query Mobile Small */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
+  #fasilitas {
+    margin: 0px 15px 60px 15px;
+  }
+
+  #fasilitas h3 {
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0em;
+    margin-bottom: 10px;
+  }
+
+  .fasilitas-bg-img {
+    width: 10%;
+  }
+
+  .fasilitas-card-content {
+    margin-left: 40px;
+  }
+
   #img-unimed-bg-bw {
     width: 80px;
     height: 80px;
