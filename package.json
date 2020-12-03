@@ -1,0 +1,28 @@
+{
+  "name": "website-ilkom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahyunf354/website-ilkom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahyunf354/website-ilkom/issues"
+  },
+  "homepage": "https://github.com/wahyunf354/website-ilkom#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-image": "^6.2.1"
+  },
+  "dependencies": {
+    "gulp-uglifycss": "^1.1.0"
+  }
+}
