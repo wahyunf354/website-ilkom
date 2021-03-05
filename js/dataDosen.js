@@ -1,6 +1,7 @@
 const dosen = [
   {
     nama: "Dr. Hermawan Syahputra, M.Si.",
+    imgUrl: "Hermawan.jpg",
     ttl: "Jati Mulyo, 30-09-1980",
     golonganJabatan: "III/c/Lektor",
     bidangKeahlian: "Image Processing, Pattern Recognition, Computer Vision",
@@ -12,6 +13,7 @@ const dosen = [
   },
   {
     nama: "Said Iskandar, S.Si., M.Si",
+    imgUrl: "said_iskandar.jpg",
     ttl: "Rantau, 18 Maret 1977",
     golonganJabatan: "III/c / Lektor",
     bidangKeahlian: "Computational Science",
@@ -19,6 +21,7 @@ const dosen = [
   },
   {
     nama: "Zulfahmi Indra, S.Si., M.Cs.",
+    imgUrl: "Zulfahmi_Indra.jpeg",
     ttl: "Medan, 11 Februari 1973",
     golonganJabatan: "III/c 	/ Lektor",
     bidangKeahlian: "Artificial Intellegent (Algoritma Genetika)",
@@ -26,6 +29,7 @@ const dosen = [
   },
   {
     nama: "Dr. Arnita, M.Si.",
+    imgUrl: "arnita.jpg",
     ttl: "Pangkalan Brandan, Langkat, 21 Juni 1976",
     golonganJabatan: "III/d /Lektor",
     bidangKeahlian: "Statistic and Data Mining",
@@ -33,6 +37,7 @@ const dosen = [
   },
   {
     nama: "Yulita Molliq Rangkuti, S.Si., M.Sc., Ph.D.",
+    imgUrl: "yulita.jpg",
     ttl: "Lubuk Pakam, 22 Januari 1976",
     golonganJabatan: "III/d / Lektor Kepala",
     bidangKeahlian: "Mathematic Modelling",
@@ -44,6 +49,7 @@ const dosen = [
   },
   {
     nama: "Nice Rejoice Refisis S.Si., M.Si.",
+    imgUrl: "nica.png",
     ttl: "Medan, 03 Maret 1984",
     golonganJabatan: "III/b / Asisten Ahli",
     bidangKeahlian: "Mathematics",
@@ -51,6 +57,7 @@ const dosen = [
   },
   {
     nama: "Kana Saputra S, S.Pd., M.Kom.",
+    imgUrl: "kana_s.jpg",
     ttl: "Sigli, 16 Agustus 1990",
     golonganJabatan: "III/b Asisten Ahli",
     bidangKeahlian: "Bioinformatic and Data Mining",
@@ -58,6 +65,7 @@ const dosen = [
   },
   {
     nama: "Insan Taufik, M.Kom.",
+    imgUrl: "insan_taufik.jpg",
     ttl: "Aceh Tenggara, 09 Februari 1991",
     golonganJabatan: "III/b Lektor",
     bidangKeahlian: "Web Programming, Image Processing",
@@ -65,6 +73,7 @@ const dosen = [
   },
   {
     nama: "Debi Yandra Niska, M.Kom",
+    imgUrl: "deby.jpg",
     ttl: "Pesisir Selatan, 19 November 1990",
     golonganJabatan: "III/b / Asisten Ahli",
     bidangKeahlian: "Decision Support System",
@@ -72,6 +81,7 @@ const dosen = [
   },
   {
     nama: "Prof. Dr. Makmur Sirait, M.Si.",
+    imgUrl: "makmur.png",
     ttl: "Lumbanjulu/Taput 06-03-1963",
     golonganJabatan: "IV/d / Profesor",
     bidangKeahlian: "Fisika Komputasi",
@@ -83,6 +93,7 @@ const dosen = [
   },
   {
     nama: "Prof. Dr. Nurdin Bukit, M.Si.",
+    imgUrl: "nurdin.png",
     ttl: "Suka Maju, 18 April 1964",
     golonganJabatan: "IV/d / Profesor",
     bidangKeahlian: "Fisika Komputasi",
@@ -90,6 +101,7 @@ const dosen = [
   },
   {
     nama: "Dr. Mulyono, M.Si",
+    imgUrl: "mulyono.png",
     ttl: "P. Kacang, 31 Desember 1971",
     golonganJabatan: "IV/a / Lektor Kepala",
     bidangKeahlian: "Pemodelan dan Graf",
@@ -97,6 +109,7 @@ const dosen = [
   },
   {
     nama: "Dr. Elmanani Simamora, M.Si.",
+    imgUrl: "elmanani.png",
     ttl: "Kampung Solok, 16 November 1972",
     golonganJabatan: "III/c Lektor",
     bidangKeahlian: "Statistika",
@@ -104,6 +117,7 @@ const dosen = [
   },
   {
     nama: "Dr. Faiz Ahyaningsih, M.Si.",
+    imgUrl: "faiz.png",
     ttl: "Sukoharjo, 26 Juni 1966",
     golonganJabatan: "IV/a Lektor Kepala",
     bidangKeahlian: "Matematika Optimasi",

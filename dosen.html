@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
 
+  <!-- animate style library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
   <!-- LINK TO CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,7 +42,7 @@
         <ul class="navbar-nav ml-auto pr-3">
 
           <!-- Menu beranda -->
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Beranda</a>
           </li>
 
@@ -76,7 +79,7 @@
           </li>
 
           <!-- Menu SDM -->
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               SDM
@@ -129,17 +132,82 @@
   <!-- end navbar -->
 
   <!-- daftar dosen -->
-  <main>
+  <main class="bg-light pb-5">
     <div class="container mt-5 pt-5">
-      <div class="row mb-5">
+      <div class="row mb-5 px-2">
         <h1 class="dosen__title_font text-center m-auto mb-2">Daftar Dosen Program Studi Ilmu Komputer</h1>
-        <p class="m-auto dosen__title_font text-muted">Bukan dosen yang kamu benci tapi kamu yang benci pada dirimu</p>
+        <p class="m-auto dosen__title_font text-center text-muted">Bukan dosen yang kamu benci tapi kamu yang benci pada
+          dirimu</p>
       </div>
       <div class="row" id="container-card">
 
       </div>
     </div>
   </main>
+
+
+  <!-- footer -->
+  <footer id="footer">
+    <div id="footercontainer" class="container px-md-7">
+      <div class="row">
+        <div class="small-12 medium-6 columns">
+          <div class="row ml-1">
+            <div class="small-4 medium-3 columns">
+              <img id="img-unimed-bg-bw" src="/assets/img/unimed-bw.png" />
+            </div>
+            <div class="small-4 medium-3 columns">
+              <div id="splitter"></div>
+            </div>
+            <div class="small-4 medium-3 columns">
+              <div id="ilkomfooter">
+                <h4>Ilmu Komputer</h4>
+                <h5>Universitas Negeri Medan</h5>
+              </div>
+            </div>
+          </div>
+          <h3 class="mt-5">UNIVERSITAS NEGERI MEDAN</h3>
+          <br />
+          <p>
+            Jl. Willem Iskandar / Pasar V, Medan, Sumatera Utara –
+            Indonesia<br />
+            Kotak Pos 1589, Kode Pos 20221<br />
+            Telp. (061) 6613365, Fax. (061) 6614002 / 6613319<br />
+            E-mail : humas@unimed.ac.id
+          </p>
+        </div>
+        <div class="small-12 medium-6 columns">
+          <div id="footer-link">
+            <ul class="ml-2">
+              <li>
+                <h5>Sosial Media :</h5>
+              </li>
+              <li>
+                <a href="https://facebook.com/UnimedOfficial">Facebook</a>
+              </li>
+              <li><a href="https://twitter.com/UnimedOfficial">Twitter</a></li>
+              <li>
+                <a href="https://instagram.com/UnimedOfficial">Instagram</a>
+              </li>
+              <li>
+                <a href="https://youtube.com/UnimedOfficial">Youtube</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+
+  <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
   <script src="js/script.js" type="module"></script>
 </body>
 
