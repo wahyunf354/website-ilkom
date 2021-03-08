@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sejarah | Ilmu Komputer</title>
+  <title>Dosen | Ilmu Komputer</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <!-- FontAwesome Icon CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
   <!-- animate style library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
   <!-- LINK TO CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -40,13 +47,13 @@
           </li>
 
           <!-- Menu Profil -->
-          <li class="nav-item dropdown active">
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Profil
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Sejarah</a>
+              <a class="dropdown-item" href="./sejarah.html">Sejarah</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#visi-misi">Visi & Misi</a>
               <div class="dropdown-divider"></div>
@@ -72,7 +79,7 @@
           </li>
 
           <!-- Menu SDM -->
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               SDM
@@ -124,77 +131,20 @@
   </nav>
   <!-- end navbar -->
 
-  <!-- main content -->
-  <main>
-    <!-- hero -->
-    <!-- TODO: change font -->
-    <section id="hero-sejarah">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h2 class="h2  animate__animated animate__fadeInLeft">Sejarah Ilmu Komputer UNIMED</h2>
-          <h1 class="display-4">Ilmu Komputer</h1>
-        </div>
+  <!-- daftar dosen -->
+  <main class="bg-light pb-5">
+    <div class="container mt-5 pt-5">
+      <div class="row mb-5 px-2">
+        <h1 class="dosen__title_font text-center m-auto mb-2">Daftar Dosen Program Studi Ilmu Komputer</h1>
+        <p class="m-auto dosen__title_font text-center text-muted">Bukan dosen yang kamu benci tapi kamu yang benci pada
+          dirimu</p>
       </div>
-    </section>
-    <!-- end hero -->
+      <div class="row" id="container-card">
 
-    <!-- article sejarah-->
-    <section id="sejarah">
-      <div class="container">
-        <article>
-          Kebutuhan guru bidang studi matematika dan ilmu pengetahuan alam sangat mendesak pada tahun 1950-an menjadi
-          faktor pendorong lahirnya FMIPA Unimed. Pada masa itu pertumbuhan sekolah mulai dari Sekolah Dasar hingga
-          Sekolah Menengah sangat tinggi sehingga membutuhkann tenaga guru dengan jumlah yang sangat tinggi. Sejarah
-          FMIPA
-          Unimed dimulai pada tahun 1957 dengan lahirnya Fakultas Keguruan dan Ilmu Pendidikan (FKIP) berdasarkan surat
-          keputusan menteri PKK RI No 85254 tanggal 22 Agustus 1957 menjadi salah satu fakultas pada Universitas
-          Sumatera
-          Utara (USU). Pada tahun 1961, FKIP USU diberi kewenangan oleh menteri PKK untuk mendidik mahasiswa pada kursus
-          B-1 untuk bidang ilmu pasti, ilmu alam dan ilmu kimia. Kemudian pada tanggal 23 Juni 1963 , FKIP USU 17 diubah
-          menjadi IKIP Jakarta cabang Medan yang mencakup 4 fakultas, yang salah satunya adalah Fakultas Keguruan dan
-          Ilmu
-          Eksakta (FKIE). Fakultas ini mengasuh 5 jurusan, yakni Ilmu Pasti, Ilmu Kimia, Ilmu Hayat dan Ilmu Alam serta
-          Teknik Sipil. Pada tahun 1965, IKIP Jakarta cabang Medan berubah menjadi IKIP Medan. Pada tahun 1979, FKIE
-          IKIP
-          membuka program D1 Matematika dan IPA, D3, Akta-3 dan Program S1 untuk semua jurusan di FKIE IKIP Medan. Pada
-          tahun 1983 FKIE berubah nama menjadi Fakultas Pendidikan Matematika dan Ilmu Pengetahuan Alam (FPMIPA) IKIP
-          Medan yang mengelola 4 Jurusan, yakni Pendidikan Matematika, Pendidikan Fisika, Pendidikan Kimia dan
-          Pendidikan
-          biologi. </article>
-        <article>
-          IKIP Medan resmi menjadi Universitas Negeri Medan (Unimed) melalui SK Presiden No 124 Tahun 1999 pada tanggal
-          26
-          Januari 2000. Hal ini terjadi sebagai upaya peningkatan mutu lulusan dalam menghadapi pembangunan Nasional.
-          Perubahan ini mengakibatkan perubahan penamaan Jurusan, diantaranya adalah Jurusan Pendidikan Matematika
-          menjadi
-          Jurusan Matematika, Jurusan Pendidikan Fisika menjadi Jurusan Fisika, Jurusan Pendidikan Kimia menjadi Jurusan
-          Kimia, dan Jurusan Pendidikan Biologi menjadi Jurusan Biologi sesuai SK Rektor Unimed No.
-          068/J39.KEP/KP.00.13/2004. </article>
-        <article>
-          Perubahan nama Jurusan ini berdampak pada munculnya prodi baru non kependidikan. Diantaranya adalah Prodi
-          Matematika, Prodi Fisika, Prodi Kimia, Prodi Biologi. Sehingga jumlah prodi yang dikelola oleh FMIPA sebanyak
-          8
-          prodi. Tugas pokok dan fungsi dalam menyelenggarakan pendidikan akademik telah dilakukan FMIPA Unimed secara
-          profesional. Secara stuktur organisasi dapat dilihat pada OTK Unimed Tahun 2014.
-        </article>
-        <article>
-          Selanjutnya, melihat perkembangan teknologi yang sangat pesat menuntut tenaga ahli di bidang IT dan produk
-          layanan aplikasi berbasis IT sehingga memaksa Universitas Negeri Medan untuk dapat turut serta berkontribusi
-          dalam penyediaan kebutuhan tersebut. Salah satu solusinya adalah dengan mendirikan program studi yang
-          berhubungan dengan teknologi dan informasi. Berdasarkan kebutuhan tersebut, selanjutnya didaftarkannya Prodi
-          ILKOM ke dalam daftar rencana pendirian Prodi di dalam Renstra Unimed 2016-2020. Renstra tersebut selanjutnya
-          ditindaklanjuti oleh Dekan FMIPA untuk segera mendirikan Prodi ILKOM dan ditempatkan di Jurusan Matematika
-          FMIPA
-          Unimed. Izin Pembukaan Program Studi Ilmu Komputer Program Sarjana Pada Universitas Negeri Medan berdasarkan
-          SK
-          Menristekdikti Nomor 623/KPT/I/2017.
-
-        </article>
       </div>
-    </section>
-    <!-- end article sejarah -->
+    </div>
   </main>
-  <!-- end main content -->
+
 
   <!-- footer -->
   <footer id="footer">
@@ -258,8 +208,7 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
 
-  <!-- SCRIPT JAVASCRIPT -->
-  <script src="js/script.js"></script>
+  <script src="js/script.js" type="module"></script>
 </body>
 
 </html>

@@ -10,10 +10,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap");
 /* css */
 @import url(./sejarah.css);
-/* end import */
-
-/* variable */
-:root {
+@import url(./dosen.css);
+/* end import */ /* variable */
+:root  {
   --dark: #1d3547;
 }
 
@@ -210,7 +209,6 @@ main {
 }
 
 /* end ka-prodi */
-
 
 /* fasilitas */
 
@@ -437,7 +435,6 @@ footer h3 {
   padding: 0px;
 }
 /* end footer */
-
 
 /* Media Query Desktop*/
 @media only screen and (min-width: 768px) {
